@@ -77,6 +77,14 @@ Then I created new proyect like the instructions says and going to use file-spy 
 </dependency>
 ```
 
+After all this process I excute the command 
+
+mvn exec:java -Dexec.mainClass="edu.eci.FileSpy"
+
+to run the aplication and I have result:
+
+![foto8](Fotos/Foto8.png)
+
 ## Git Basic Concepts
 
 ### What is the purpose of this command? (add)

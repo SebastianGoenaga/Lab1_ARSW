@@ -8,7 +8,7 @@ import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
 
 public class FileSpy {
     private static final String FILE_TYPE = "text/csv";
-    private static final String DIR_TO_WATCH = "C:\\Users\\DiegoPT\\Downloads\\temp";
+    private static final String DIR_TO_WATCH = "D:\\Documentos\\prueba";
 
     public static void main(String[] args) throws Exception {
         Path dir = Paths.get(DIR_TO_WATCH);
